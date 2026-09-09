@@ -91,4 +91,4 @@ SELECT
     b.total_price
 FROM bookings b
 JOIN guests g ON b.guest_id = g.guest_id
-JOIN rooms r ON b.room_id = r.room_id;
+JOIN rooms r ON b.room_id = r.room_id;-- verified present
